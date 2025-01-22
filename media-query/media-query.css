@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-@media screen and (min-width: 500px) {
+
 body {
     font-family: 'Roboto', sans-serif, Arial;
 }
@@ -20,8 +20,10 @@ section {
     background-color: white;
     padding: 15px;
 }
-header {
-    background-color: black;
-    color: white;
-}
+
+@media screen and (min-width: 500px) {
+    header {
+        background-color: black;
+        color: white;
+    }
 }
